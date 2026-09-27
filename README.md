@@ -26,3 +26,19 @@ Work through them in order:
 13. [Docker Compose](lessons/13-docker-compose.md) - Running everything together
 14. [Next Steps](lessons/14-next-steps.md) - OpenTelemetry, alerting, frameworks to learn more
 
+
+
+## The project
+
+RAG solves these problems by giving the LLM relevant documents at
+question time. We don't hope the model memorized the answer. We
+retrieve the right information and hand it to the LLM, and the model
+generates a grounded response. This lets us inject knowledge the model
+never saw during training. That's why RAG is still the most common way
+people use LLMs in the industry.
+
+To make this concrete, we build a FAQ agent for our course. A student
+asks something like "when does the course start?" and the agent answers
+from the FAQ data we prepared.
+
+![Overview of the course RAG project: a question is searched against FAQ documents, passed as context to an LLM, and returned as an answer](images/01-intro-01-rag-project-overview-imagegen.png)
