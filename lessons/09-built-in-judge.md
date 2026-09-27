@@ -117,11 +117,6 @@ Sometimes it'll call a weak answer relevant, or the other way around.
 When you build your own, spend time on the prompt until "relevant" means
 relevant.
 
-The way to get there is alignment. You collect some labels from your
-users, or label a sample yourself. Then you tune the judge until it
-agrees with them. The team at Evidently has a good talk on this on our
-DataTalks Club channel. Look for
-[automated prompt optimization](https://www.youtube.com/watch?v=uMNYVw4jh-8).
 
 ## Saving judge feedback to the database
 
