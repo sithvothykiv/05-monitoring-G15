@@ -1,4 +1,5 @@
 # Grafana Dashboards
+![alt text](image-2.png)
 
 Our Streamlit dashboard already works. We bring in Grafana because it
 does more. It's a dedicated dashboarding tool: it connects to many data

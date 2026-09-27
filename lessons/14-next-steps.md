@@ -1,5 +1,7 @@
 # Next Steps
 
+![alt text](image-1.png)
+
 Let's recap what we did. We took the RAG pipeline from the earlier
 modules and wrapped it in a simple Streamlit interface. We started
 recording every interaction to PostgreSQL.

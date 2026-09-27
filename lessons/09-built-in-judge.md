@@ -1,6 +1,6 @@
 # Built-in Judge
 
-
+![alt text](image-3.png)
 In the previous module we used an LLM as a judge for offline evaluation.
 One LLM grades the output of another. We can run the same idea online.
 

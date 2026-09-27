@@ -1,5 +1,6 @@
 # Docker Compose
 
+![alt text](image.png)
 
 By now we have three pieces running - PostgreSQL, Grafana, and the
 Streamlit app. Starting each by hand works, but it adds up. You have to
